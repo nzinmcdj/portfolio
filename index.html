@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Campos — Web Developer</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700;900&family=DM+Mono:wght@400;500&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="portifolio.css">
+</head>
+<body>
+
+  <!-- Grain overlay for texture -->
+  <div class="grain"></div>
+
+  <nav id="navbar">
+    <span class="nav-brand">campos<span class="dot">.</span></span>
+    <div class="nav-links">
+      <a href="#welcome-section">About</a>
+      <a href="#project-section">Work</a>
+      <a href="#contact">Contact</a>
+      <a id="profile-link" href="https://github.com/nzinmcdj" target="_blank" rel="noopener">
+        <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0 0 24 12c0-6.63-5.37-12-12-12z"/></svg>
+        GitHub
+      </a>
+    </div>
+  </nav>
+
+ 
+  <section id="welcome-section">
+    <div class="hero-content">
+      <p class="hero-eyebrow">Hello, world —</p>
+      <h1>I'm <span class="name-highlight">Campos</span></h1>
+      <h2>Web Developer</h2>
+      <p class="hero-sub">I build clean, thoughtful experiences for the web.</p>
+      <a href="#project-section" class="hero-cta">See my work <span class="arrow">↓</span></a>
+    </div>
+    <div class="hero-scroll-hint">scroll</div>
+  </section>
+
+
+  <section id="project-section">
+
+    <div class="section-header">
+      <span class="section-label">Selected Work</span>
+      <h3>Projects</h3>
+      <div class="header-rule"></div>
+    </div>
+
+    <div class="project-container">
+
+      <!-- Card 1 -->
+      <div class="project project-featured">
+        <div class="project-media">
+          <img class="project-image" src="portfolio-screenshot.jpeg" alt="Landing page project screenshot">
+          <div class="project-overlay">
+            <span class="overlay-tag">HTML · CSS</span>
+          </div>
+        </div>
+        <div class="project-info">
+          <span class="project-number">01</span>
+          <div class="project-meta">
+            <h4 class="project-title">Landing Page</h4>
+            <p class="project-desc">A modern, responsive landing page built from scratch. Clean layout, strong hierarchy, mobile-first.</p>
+          </div>
+          <p class="project-hover">
+            <a href="https://nzinmcdj.github.io/Landing-page/" target="_blank" rel="noopener">
+              View Project 
+            </a>
+          </p>
+        </div>
+      </div>
+
+      <!-- Card 2  -->
+      <div class="project project-newspaper">
+        <div class="newspaper-header">
+          <div class="newspaper-meta">
+            <span class="newspaper-vol">Vol. II · Issue 01</span>
+            <span class="newspaper-date">CSS Grid Layout</span>
+          </div>
+          <div class="newspaper-title-block">
+            <div class="newspaper-rule top"></div>
+            <h4 class="newspaper-masthead">The Daily<br><em>Layout</em></h4>
+            <div class="newspaper-rule bottom"></div>
+          </div>
+          <p class="newspaper-tagline">An editorial newspaper layout built entirely with CSS Grid</p>
+        </div>
+        <div class="project-media newspaper-media">
+          <img class="project-image" src="newspaper-screenshot-project.jpeg" alt="Newspaper CSS Grid project screenshot">
+          <div class="project-overlay">
+            <span class="overlay-tag">HTML · CSS Grid</span>
+          </div>
+        </div>
+        <div class="project-info newspaper-footer">
+          <span class="project-number">02</span>
+          <p class="project-hover">
+            <a href="https://nzinmcdj.github.io/newspaper/" target="_blank" rel="noopener">
+              Read Edition 
+            </a>
+          </p>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ─── CONTACT / FOOTER ─── -->
+  <footer id="contact">
+    <div class="footer-inner">
+      <p class="footer-label">Get in touch</p>
+      <a href="https://github.com/nzinmcdj" target="_blank" rel="noopener" class="footer-github">
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0 0 24 12c0-6.63-5.37-12-12-12z"/></svg>
+        github.com/nzinmcdj
+      </a>
+      <p class="footer-copy">© 2025 Campos. Built with HTML & CSS.</p>
+    </div>
+  </footer>
+
+</body>
+</html>
